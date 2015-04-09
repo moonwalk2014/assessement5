@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+	<input type="text" id="myNumber" value="1234">
+	<button  onclick="pass()" id="addnum"> fonction 1</button> 
+	<button  onclick="numberOfContainer()" id="addnum"> fonction 2</button>
+ 	<button  onclick="myFavorteColor()" id="addnum"> fonction 3</button>
+
+<script>
+
+
+//function 1
+
+function pass(){
+	    var x = document.getElementById("myNumber").value;
+
+	if(x == 1234){
+	 alert("you are now  in !");
+   }else{
+	alert(" Wrong passcode. Try again ");
+   }
+
+}
+
+//function 2
+
+function numberOfContainer(){
+	 var result = document.getElementById("myNumber").value;
+	if(result == 10 ){
+		alert("bingoooooo");
+	}else{
+		alert("It did not match ! ");
+	}		
+} 
+
+
+//function 3
+
+function myFavorteColor(){
+	 var color = document.getElementById("myNumber").value;
+	 console.log(color)
+	if(color == "red" ){
+	alert("this is  the right color");
+	}else {
+		alert("that's a red dude!! ");
+	}		
+} 
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

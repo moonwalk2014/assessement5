@@ -1,0 +1,72 @@
+1-  variables
+var x = 5;
+var y = 4;
+alert(x*y);
+
+var x = "ALI";
+var y = "BENNOUR";
+console.log (x +","+ y);
+console.log (y + "," +x);
+
+var x = 20 ;
+console.log(x * 40);
+2-debugging
+    a-to send an alert
+alert("put an alere ");
+
+    
+
+      b-  to log to a javascript console
+console.log(" we see on the console")
+      v- comment // hello this is a comment
+
+3-diffent data type
+we have 4 different data type: 
+   a-the string : example "My name"
+   b-the numbers : example : 1, 2, 5, 10 ....
+   c-the boolean that send a true of false value 
+   d-the undifined data () */
+
+
+4-workaing with arrays
+  var my_collection = ["ford_edge", "htc_one","iphone_5s"];
+
+	console.log(my_collection[2]);
+	alert(my_collection[2]);
+
+	var my_cars =[ "ford_edge","honda_civic"];
+	var my_sport = ["basketball", "football"];
+
+	var what_i_like = [my_cars, my_sport];
+
+	console.log(what_i_like[0][0]);
+
+
+5-testing and logic
+var x = 10;
+var y = 10;
+
+var a = "wassila"
+var b = "bechikh"
+
+var z = x + a;
+var c = y + a;
+
+if (x !==y){
+console.log ("impossible")
+  }else if (x === a) {
+  	console.log(" youpiiiiii. ")
+ }else {
+	console.log("Try again!")
+}
+
+
+6-function
+  
+<p id="demo"> here the result</p>
+
+function myFunction() {
+   
+    document.getElementById("demo").innerHTML = x;
+}
+
